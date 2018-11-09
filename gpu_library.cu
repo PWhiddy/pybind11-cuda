@@ -38,10 +38,6 @@ void run_kernel
 }
 
 template <typename T>
-void run_kernel
-(T *vec, T scalar, int num_elements);
-
-template <typename T>
 void map_array(pybind11::array_t<T> vec, T scalar)
 {
   pybind11::buffer_info ha = vec.request();
