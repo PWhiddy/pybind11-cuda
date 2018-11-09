@@ -7,7 +7,8 @@ Python 3.6 or greater
 Cmake 3.6 or greater
 
 To build - 
-```source install.bash```
+```source install.bash``` 
+
 Test it with
 ```python3 test_mul.py``` 
  
