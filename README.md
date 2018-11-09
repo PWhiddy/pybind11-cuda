@@ -1,13 +1,19 @@
 # pybind11-cuda
-Starting point for GPU accelerated python libraries
-To build - 
+Starting point for GPU accelerated python libraries 
 
-Then the library can be using in this directory (or elsewhere if added to your PYTHONPATH environment variable)
+Prerequisites -
+Cuda installed in /usr/local/cuda
+Python 3.6 or greater
+Cmake 3.6 or greater
+
+To build - 
+```source install.bash```
 Test it with
 ```python3 test_mul.py``` 
  
 # Features demonstrated
--Compiles out of the box with cmake
-- 
+Compiles out of the box with cmake
+Numpy integration
+C++ Templating for composable kernels with generic data types
 
-Based on https://github.com/torstem/demo-cuda-pybind11
+Originally based on https://github.com/torstem/demo-cuda-pybind11
