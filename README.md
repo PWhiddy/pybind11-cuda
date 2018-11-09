@@ -1,7 +1,7 @@
 # pybind11-cuda
 Starting point for GPU accelerated python libraries 
 
-Prerequisites - 
+# Prerequisites
 
 Cuda installed in /usr/local/cuda 
 
@@ -9,10 +9,11 @@ Python 3.6 or greater
 
 Cmake 3.6 or greater 
 
-To build - 
+# To build 
+
 ```source install.bash``` 
 
-Test it with
+Test it with 
 ```python3 test_mul.py``` 
  
 # Features demonstrated
