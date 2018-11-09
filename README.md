@@ -3,7 +3,9 @@ Starting point for GPU accelerated python libraries
 
 Prerequisites - 
 Cuda installed in /usr/local/cuda 
+
 Python 3.6 or greater 
+
 Cmake 3.6 or greater 
 
 To build - 
