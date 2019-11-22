@@ -1,5 +1,12 @@
 # pybind11-cuda
-Starting point for GPU accelerated python libraries 
+
+Compiles out of the box with cmake 
+
+Numpy integration 
+
+C++ Templating for composable kernels with generic data types 
+
+Originally based on https://github.com/torstem/demo-cuda-pybind11
 
 # Prerequisites
 
@@ -16,12 +23,3 @@ Cmake 3.6 or greater
 Test it with 
 ```python3 test_mul.py``` 
  
-# Features demonstrated 
-
-Compiles out of the box with cmake 
-
-Numpy integration 
-
-C++ Templating for composable kernels with generic data types 
-
-Originally based on https://github.com/torstem/demo-cuda-pybind11
