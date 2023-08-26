@@ -3,5 +3,5 @@ git submodule update
 cd build
 cmake ..
 make
-export PYTHONPATH=$PWD:$PYTHONPATH
+export PYTHONPATH="$PWD:$PYTHONPATH"
 cd ..
